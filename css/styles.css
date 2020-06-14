@@ -740,6 +740,7 @@ footer {
   width: 100%;
 }
 .form .call-to-action {
+  display: block;
   margin-top: 0;
   margin-bottom: 30px;
 
