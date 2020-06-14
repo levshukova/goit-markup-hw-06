@@ -382,16 +382,23 @@
             </ul>
           </div>
           <div class="subscription-container">
-            <p class="text">Подпишитесь на рассылку</p>
-            <div class="sub-container">
-              <p class="email-input">E-mail</p>
-              <a href="#" class="button"
-                >Подписаться
+            <b class="text">Подпишитесь на рассылку</b>
+            <form class="subcription-form">
+              <label class="subcription-form-label">
+                <input
+                  type="email"
+                  name="email"
+                  class="subcription-form-input"
+                  placeholder="E-mail"
+                />
+              </label>
+              <button type="submit" class="button">
+                Подписаться
                 <svg class="icon-send" width="24" height="24">
                   <use href="./images/symbol-defs-opt.svg#icon-icon-send"></use>
                 </svg>
-              </a>
-            </div>
+              </button>
+            </form>
           </div>
         </div>
 
