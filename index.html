@@ -171,12 +171,12 @@
               <img
                 class="image"
                 src="./images/john-smith-optimized.jpg"
-                alt="Фото Джона Смита"
+                alt="Фото Николая Кучеренко"
                 width="270"
                 height="260"
               />
               <div class="team-description">
-                <h3 class="subtitle">John Smith</h3>
+                <h3 class="subtitle">Николай Кучеренко</h3>
                 <p class="position">Product Designer</p>
                 <ul class="list list-socials">
                   <li class="socials-item-team button-socials">
@@ -238,12 +238,12 @@
               <img
                 class="image"
                 src="./images/marta-stuart-optimized.jpg"
-                alt="Фото Марты Стюарт"
+                alt="Фото Ольги Ивановой"
                 width="270"
                 height="260"
               />
               <div class="team-description">
-                <h3 class="subtitle">Marta Stewart</h3>
+                <h3 class="subtitle">Ольга Иванова</h3>
                 <p class="position">Frontend Developer</p>
                 <ul class="list list-socials">
                   <li class="socials-item-team button-socials">
@@ -306,12 +306,12 @@
               <img
                 class="image"
                 src="./images/robert-jakis-optimized.jpg"
-                alt="Фото Роберта Джейкиса"
+                alt="Фото Андрея Шевченко"
                 width="270"
                 height="260"
               />
               <div class="team-description">
-                <h3 class="subtitle">Robert Jakis</h3>
+                <h3 class="subtitle">Андрей Шевченко</h3>
                 <p class="position">Marketing</p>
                 <ul class="list list-socials">
                   <li class="socials-item-team button-socials">
@@ -374,12 +374,12 @@
               <img
                 class="image"
                 src="./images/martin-doe-optimized.jpg"
-                alt="Фото Мартина Доу"
+                alt="Фото Ивана Николаева"
                 width="270"
                 height="260"
               />
               <div class="team-description">
-                <h3 class="subtitle">Martin Doe</h3>
+                <h3 class="subtitle">Иван Николаев</h3>
                 <p class="position">UI Designer</p>
                 <ul class="list list-socials">
                   <li class="socials-item-team button-socials">
@@ -569,13 +569,14 @@
           </div>
           <div class="subscription-container">
             <b class="text">Подпишитесь на рассылку</b>
-            <form class="subcription-form">
+            <form method="POST" class="subcription-form">
               <label class="subcription-form-label">
                 <input
                   type="email"
                   name="email"
                   class="subcription-form-input"
                   placeholder="E-mail"
+                  autofocus
                 />
               </label>
               <button type="submit" class="button">
@@ -591,10 +592,10 @@
         <p class="copyright">2020 | Developed by GoIT Students</p>
       </div>
     </footer>
-
+    <!-- Modal -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <form class="form">
+        <form method="POST" class="form">
           <b class="call-to-action">Оставьте свои данные, мы вам перезвоним</b>
           <ul class="list">
             <li class="form-field">
@@ -646,7 +647,7 @@
                 />
               </svg>
             </li>
-            <li class="form-field">
+            <li class="form-field textarea">
               <textarea
                 name="comment"
                 id="comment"
